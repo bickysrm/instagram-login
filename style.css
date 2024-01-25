@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: 0;
+    font-family: sans-serif;
+}
+body {
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+ main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    min-height: 100vh;
+    margin: auto;
+}
+.mobile{
+    width: 27vw;
+}
+.form-div{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+.form-div form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 7vh 2vw;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+}
+.form-div form .logo{
+    width: 261px;
+    margin: 20px 0;
+}
+input{
+    width: 90%;
+    padding: .6rem;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    margin: 3px;
+}
+.login-btn {
+    width: 97%;
+    padding: .4rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+    background-color: rgb(1, 183, 255);
+    border: none;
+    border-radius: 8px;
+    margin: 8px 0px;
+    color: white;
+}
+.forgot-password{
+    color: #00376b;
+}
+#or {
+    margin: 20px 0;
+}
+
+#or:before,
+#or:after {
+    content: '------------------------';
+    color: rgba(128, 128, 128, 0.7);
+    margin: 0 10px;
+}
+
+.fb-login {
+    font-weight: 700;
+    font-size: 95%;
+    display: flex;
+    align-items: center;
+    color: #315185;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.fb-login i{
+    font-size: 28px;
+    margin: 0px 8px 0px 0px;
+}
+.signup{
+    text-align: center;
+    font-size: 1.2rem;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    padding: 20px 40px;
+    margin: 10px 0px
+}
+.signup a{
+    color: #0095f6;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.bn44 {
+    width: 160px;
+    height: 60px;
+}
+.get-app {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.store {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+    gap: 10px;
+    
+}
+.nav{
+    display: flex;
+    justify-content: center;
+}
+
+.nav ul{
+    list-style: none;
+    display:flex;
+    color: #737373;
+    font-size: 16px;
+}
+.nav ul li{
+    margin-left: 20px;
+}
+.nav ul li a{
+    color: #737373 ;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 1rem;
+    color: #737373;
+    margin-bottom: 40px;
+}
+.footer select{
+    border: none;
+    font-size: 1rem;
+    padding-left: -10px;
+    color: #737373;
+}
+.footer p{
+    margin-left:8px;
+}
